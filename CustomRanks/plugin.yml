@@ -1,0 +1,19 @@
+---
+name: CustomRanks
+version: 1.0.0
+author: AsariusDev
+description: Change ranks on the fly.
+website: https://github.com/AsariusDev
+main: AsariusDev\CustomRanks\Main
+api: 5.23.2
+src-namespace-prefix: AsariusDev\CustomRanks
+
+permissions:
+  commands.setrank:
+    default: op
+    description: set rank
+
+  commands.removerank:
+    default: op
+    description: remove rank
+...
